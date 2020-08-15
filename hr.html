@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<header>
+ <meta http-equiv="refresh" content="">
+ <style>
+    h1:hover{color:lightgray;
+	         text-decoration:underline;
+	   }
+    .boxx{background-color:mediumseagreen;
+	     position:absolute;
+		 text-align:center;
+	     width:600px;
+		 left:25%;
+		 top:25%;
+		 right:10%
+	      }
+	.boxx input[type="text"]:focus,.boxx input[type=password]:focus
+	      {color:red;
+		   width:180px;
+		   border-color:purple;
+		   border-top-color:violet;
+		   border-radius:30px;
+		   transition:1.5s;
+		   opacity:1.5;
+		  }
+    .button{height:30px;background-color:orange;width:80px;border-radius:10px;
+	        }
+			
+	.boxx input[type=submit]:hover{background-color:tomato;}
+	.boxx input[type=submit]:focus{background-color:white;}
+	.boxx input[type=password]:hover{border-color:yellow;}
+	.boxx input[type=text]:hover{border-color:orange; border-bottom-color:violet}
+    a:link{color:pink}
+	a:hover{color:white;text-decoration:underline;}
+	a:visited{color:red; }
+	a:active{color:blue}
+	.boxx input[type=password]{background-color:white;
+	        margin:10px;
+			border: 2px solid blue;
+	        color:black;
+			border-radius:40px;
+			width:160px;
+			height:22px;
+			padding-left:22px}
+	input[type=text]{background-color:white;
+	        margin:10px;
+			border: 2px solid blue;
+	        color:black;
+			border-radius:40px;
+			width:160px;
+			height:22px;
+			padding-left:24px}
+	
+	#password{background-image:url("C:/Users/user/Desktop/+/images (7).jpeg");
+	          background-size:22px;
+			  background-repeat:no-repeat;
+			  background-position:left;
+			  border-radius:400px;
+			  
+	          }
+	#username{background-image:url("C:/Users/user/Desktop/+/OIP1.jpg");
+	          background-size:20px;
+			  background-repeat:no-repeat;
+			  background-position:left;
+			  
+	          }		  
+	.p{
+	   border-spacing:10px;
+	   background-color:pink;
+	   padding-right:30px
+	}
+    body {
+	  display:flex;
+	  align-items:center;
+	  justify-content:center;
+	  background-image:url("C:/Users/user/Desktop/+/OIP2.jpg");
+	  background-position:center;
+	  background-size:200px;
+	  background-color:red;
+	  top:25%
+	  back
+	}	
+	img {background-color:black;
+	      width:20px;}
+ </style >
+ <title>login</title>
+<header/>
+<body bgcolor="green">
+ <form action="tkinter.html" method="get" class='boxx'>
+         <h1>jkuat login</h1>	  
+         <label for "username" required >username</label>
+         <input type ="text" placeholder = 'username' required id="username" autocomplete="on"><br>
+         <label for "password" value="password">password</label>
+         <input type="password" id ="password" placeholder= 'password' required class="county" ><br>	 
+         <input type="checkbox" name="check" >
+         <label for "check" value="check" >remember mehjhjhjh?</label><br>
+         <input type="submit" class="button">
+         <h5>FORGOT YOUR PASSWORD?</h5>
+		 <i class ="fa fa-bars"></i>
+         <h5>To Reset Your Password <a href= "passwordreset.html" target="_blank" class ='a'>click here</a></h5>
+         <h4>Are You An Existing Student/Employee?<a href= "https://www.google.com" target="_blank"> Create An Account</a></></h4>
+ </form>
+ <div id="footer" >
+    <p>&copy: kenny technologies </p>
+ </div>	
+</html>
