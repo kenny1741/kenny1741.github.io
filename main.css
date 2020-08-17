@@ -63,7 +63,7 @@ label{margin:20px;
     	   text-align: right;
     	   border-radius: 10px;
     	   transition:s;
-       }
+      }
     
     #toggle:checked + .menu{display:block;
 		}
