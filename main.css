@@ -53,7 +53,6 @@ label{margin:20px;
 	     
         }
 
-    .menu:hover .z {background-color:;}
     .menu{ position: relative;
     	   display: none;
     	   margin:10px;
@@ -62,7 +61,7 @@ label{margin:20px;
     	   width:400px;
     	   text-align: right;
     	   border-radius: 10px;
-    	   transition:s;
+    	 
       }
     
     #toggle:checked + .menu{display:block;
