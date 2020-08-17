@@ -30,6 +30,7 @@ label{margin:20px;
 		  background-color: ble;
 		  cursor: pointer;
 		  text-align: right;
+		  margin-left:-20px;
 		  }
     
     .menu ul li a {text-align: center;
@@ -47,7 +48,7 @@ label{margin:20px;
     .menu ul{border-radius: 20px;
 	     transition-duration: 4s;
 	     position: relative;
-	     text-align: center;
+	     text-align: right;
         }
 
     .menu:hover .z {background-color:red;}
