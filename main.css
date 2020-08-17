@@ -56,9 +56,9 @@ label{margin:20px;
     .menu{ position:relative;
     	   display:none;
     	   margin:10px;
-    	   background-color:white;
+    	   background-color:grey;
     	   height:1250%;
-    	   width:400px;
+    	   width:100px;
     	   text-align: right;
     	   border-radius: 10px;
     	 
