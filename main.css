@@ -53,10 +53,10 @@ label{margin:20px;
 	     
         }
 
-    .menu{ position: relative;
-    	   display: none;
+    .menu{ position:relative;
+    	   display:none;
     	   margin:10px;
-    	   background-color: grey;
+    	   background-color:white;
     	   height:1250%;
     	   width:400px;
     	   text-align: right;
