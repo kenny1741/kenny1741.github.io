@@ -55,7 +55,7 @@ label{margin:20px;
 
     .menu:hover .z {background-color:;}
     .menu{ position: relative;
-    	   display: non
+    	   display: none;
     	   margin:10px;
     	   background-color: grey;
     	   height:1250%;
