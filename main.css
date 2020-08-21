@@ -1,0 +1,115 @@
+body{max-width:100%;
+	background-color: pink;
+   }
+*{box-sizing: border-box;}
+.nav{text-align:center;
+	border-bottom:5px solid green;
+	height:50px;
+	line-height: 40px;
+}
+
+
+#toggle{display: none;}
+	 
+}
+section{display: block;
+	    margin: 10px;
+
+       }
+.sec1{background-color: blue;
+	       position: relative;
+	 	   margin-top: 20px;
+	 	   height: 80px;
+	 	   border-radius: 30px;
+	       }
+.sec2 {background-color: green;
+	 	   margin-top: 30px;
+	 	   height: 80px;
+	 	   border-radius: 30px;
+	       }
+.sec2:hover{background-color: violet;
+	             transition:4s;}
+.sec3 {background-color: purple;
+	 	   margin-top: 30px;
+	 	   height: 80px;
+	 	   border-radius: 30px;
+	       }
+.sec3:hover{background-color: black;
+	              transition-duration: 4s}
+.sec4 {background-color: orange;
+	 	   margin-top: 30px;
+	 	   height: 80px;
+	 	   border-radius: 30px;
+	       }
+
+.sec4:hover{background-color: red;
+	             transition:4s;}
+.sec5 {background-color: grey;
+	 	   margin-top: 30px;
+	 	   height: 80px;
+	 	   border-radius: 30px;
+	       }
+.sec5:hover{background-color: violet;
+	              transition-duration: 4s}
+h3{position: relative;
+	color: white;
+    margin-top: 20px;
+	height: 20px;
+	border-radius: 30px;
+  }
+label{margin:20px;
+	font-size: 70px;
+	color:red;
+	display: none;
+	text-align: left;
+    }
+@media only screen and (max-width: 1800px) {
+	label {display:block;
+		  background-color: bue;
+		  cursor: pointer;
+		  text-align: left;
+		  font-size:30px;
+		  margin-right:40px;
+		  }
+    .menu {
+    	   display:none;
+    	   margin-top:20px;
+    	   margin-left:-8px;
+    	   background-color: grey;
+    	   height:550px;
+    	   width:300px;
+    	   text-align: center;
+    	   border-radius: 10px;
+           
+       }
+    .menu a{display: block;}
+    .menu select{position: relative;
+    	         margin-top: 40px;
+    	         width:150px;
+    	         display: block;
+    	         border-bottom: 2px solid red;
+    	         height: 30px;
+    	         line-height: 20px;
+    	         left:25%;
+    	         top:10%;
+    	         display: block;
+    	         border-radius: 10px;
+    	         background-color: green;
+    	         color:white;
+
+    	     }
+     .menu select option{ z-index:-1px;
+     	                position: absolute;
+     	                background-color: red;
+                        }
+    .menu select{top:-5%;}
+    #a1{margin-left:-105px;
+     
+      }
+    #a2{margin-left:-60px;
+   	   
+     }
+ 
+   #toggle:checked + .menu {display: block;
+		}
+	}
