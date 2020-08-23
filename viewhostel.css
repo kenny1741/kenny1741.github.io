@@ -88,6 +88,6 @@ table{position: relative;
         h1{position: absolute;
         	text-align: center;
         	left:20%;
-        	color: white;
+        	color: red;
           }
       }
