@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8" name="viewport" content="width=device-width,initial-width=1.0",url="index.html">
+	<script type="text/javascript">
+        function checkpass() {
+           if(document.getElementById("username").value=="k" && document.getElementById("pass").value=="m"){
+         
+            var age=prompt("Kindly Enter Your Age")
+            if (age>19){
+               window.location="testi.html";
+            }
+              else if (age==""){
+              alert("age cannot be empty")
+             }
+             else if(age==null){
+
+              var al=alert(" YOU ARE NOW EXITING........")
+              }
+        
+            else if(age<19){
+              alert("under 19 years not allowed,Buda Enda Ukachukue Id")
+             }
+        
+             
+             else if(age>=19){
+                  window.location="testi.html";
+             }
+             else{
+              alert("incorrect input!!!,only digits are allowed")
+             }        
+        }
+       else{
+            //alert("wrong username or passwod");
+            document.getElementById("h1").innerHTML="wrong username or password";
+            document.getElementById("username").style.borderColor="red";
+            document.getElementById("username").style.borderWidth="3px";
+            document.getElementById("pass").style.borderColor="red";
+            document.getElementById("pass").style.borderWidth="3px";
+      }
+  }
+  
+	    
+     
+    </script>
+
+	<style type="text/css">
+         body{
+         	background-color: blac;
+         	background-image: url("C:/inetpub/wwwroot/g.ng");
+         }
+		button{
+			color: red;
+			width:50%;
+			
+			bac
+
+		}
+	#btn{
+		background-image: url("C:/inetpub/wwwroot/g.png");
+		background-repeat: no-repeat;
+		background-size: 10%;
+		background-origin: content-box;
+		background-position: right;
+	}
+	h5{
+		color: red;
+		position: absolute;
+		top:20%;
+		left:30%;
+	}
+	#log{
+		position: absolute;
+		background-color: gren;
+		opacity: ;
+		width: 80%;
+		height: 100%;
+		left:10%;
+		right: 10%;
+	}
+	log1{
+		position: absolute;
+		top:50%;
+	}
+	#username{ position: absolute;
+		top:35%;
+		width: 80%;
+		left:10%;
+		right: 10%;
+		border-radius: 10px;
+		background: transparent;
+		border: none;
+        opacity: 1.5;
+		border-radius: 10px;
+		outline: none;
+		border:3px solid lime;
+	    text-align: center;
+		                 	}
+     ::placeholder{
+     	color: orangered;
+     }
+	#pass{
+		position: absolute;
+		top:50%;
+		width: 80%;
+		left:10%;
+		right: 10%;
+	
+		background: transparent;
+		border: none;
+        opacity: 1.5;
+		border-radius: 10px;
+		outline: none;
+		                 border:3px solid lime;
+		               text-align: center;
+	}
+	#pass:focus{
+		background-color: white;
+
+	}
+	#username:focus{
+		background-color: white;}
+	#login{position: absolute;
+		top:66%;
+		color: red;
+		width:70%;
+		right:15%;
+		left: 15%;
+        height:7%;
+		border: none;
+        opacity: 1.5;
+		border-radius: 10px;
+		outline: none;
+		 border:3px solid darkcyan;
+		 text-align: center;
+
+	}
+	#img{width: 100%;
+		position: absolut
+		z-index: -2;
+	}
+	#img1{width:100%;
+		height: 100%;
+		position: absolute;
+		left:
+			}
+	</style>
+	
+</head>
+<body>
+	<div>
+		<img src="C:/inetpub/wwwroot/k.jpg" id="img1">
+	</div>
+<center>
+	<form >
+    <div id="log">
+    
+    	<div id="log1">
+              <h5 id="h1"></h5>
+	          <input type="text" name="" id="username" placeholder="username" style="height: 8%"; required>
+	          <input type="password" name="" id="pass" placeholder="password" style="height: 8%;" required>
+              <input type="submit" value="login" onclick="checkpass()" id="login">
+        </div>
+   </div>
+   </form>
+</center>
+</body>
+</html>
